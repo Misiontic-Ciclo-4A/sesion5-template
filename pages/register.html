@@ -24,97 +24,141 @@
     />
 
     <!-- Custom styles for this template-->
-    <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="../../css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
   </head>
 
-  <body class="bg-gradient-primary">
-    <div class="container">
-      <div class="card o-hidden border-0 shadow-lg my-5">
-        <div class="card-body p-0">
-          <!-- Nested Row within Card Body -->
-          <div class="row">
-            <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
-            <div class="col-lg-7">
-              <div class="p-5">
-                <div class="text-center">
-                  <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
-                </div>
-                <form class="user">
-                  <div class="form-group row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
-                      <input
-                        type="text"
-                        class="form-control form-control-user"
-                        id="exampleFirstName"
-                        placeholder="First Name"
-                      />
-                    </div>
-                    <div class="col-sm-6">
-                      <input
-                        type="text"
-                        class="form-control form-control-user"
-                        id="exampleLastName"
-                        placeholder="Last Name"
-                      />
-                    </div>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Mintic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./news.html#news">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./news.html#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-primary btn-sm text-uppercase"
+                href="./login.html"
+                >Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-section bg-white" id="login">
+      <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+              <div class="col-lg-7">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                   </div>
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      class="form-control form-control-user"
-                      id="exampleInputEmail"
-                      placeholder="Email Address"
-                    />
-                  </div>
-                  <div class="form-group row">
-                    <div class="col-sm-6 mb-3 mb-sm-0">
+                  <form class="user">
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input
+                          type="text"
+                          class="form-control form-control-user"
+                          id="exampleFirstName"
+                          placeholder="First Name"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <input
+                          type="text"
+                          class="form-control form-control-user"
+                          id="exampleLastName"
+                          placeholder="Last Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group">
                       <input
-                        type="password"
+                        type="email"
                         class="form-control form-control-user"
-                        id="exampleInputPassword"
-                        placeholder="Password"
+                        id="exampleInputEmail"
+                        placeholder="Email Address"
                       />
                     </div>
-                    <div class="col-sm-6">
-                      <input
-                        type="password"
-                        class="form-control form-control-user"
-                        id="exampleRepeatPassword"
-                        placeholder="Repeat Password"
-                      />
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input
+                          type="password"
+                          class="form-control form-control-user"
+                          id="exampleInputPassword"
+                          placeholder="Password"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <input
+                          type="password"
+                          class="form-control form-control-user"
+                          id="exampleRepeatPassword"
+                          placeholder="Repeat Password"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <a
-                    href="./login.html"
-                    class="btn btn-primary btn-user btn-block"
-                  >
-                    Register Account
-                  </a>
+                    <a
+                      href="./login.html"
+                      class="btn btn-primary btn-user btn-block"
+                    >
+                      Register Account
+                    </a>
+                    <hr />
+                    <a
+                      href="index.html"
+                      class="btn btn-google btn-user btn-block"
+                    >
+                      <i class="fab fa-google fa-fw"></i> Register with Google
+                    </a>
+                  </form>
                   <hr />
-                  <a
-                    href="index.html"
-                    class="btn btn-google btn-user btn-block"
-                  >
-                    <i class="fab fa-google fa-fw"></i> Register with Google
-                  </a>
-                </form>
-                <hr />
-                <div class="text-center">
-                  <a class="small" href="forgot-password.html"
-                    >Forgot Password?</a
-                  >
-                </div>
-                <div class="text-center">
-                  <a class="small" href="login.html"
-                    >Already have an account? Login!</a
-                  >
+                  <!-- <div class="text-center">
+                    <a class="small" href="forgot-password.html"
+                      >Forgot Password?</a
+                    >
+                  </div> -->
+                  <div class="text-center">
+                    <a class="small" href="login.html"
+                      >Already have an account? Login!</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
